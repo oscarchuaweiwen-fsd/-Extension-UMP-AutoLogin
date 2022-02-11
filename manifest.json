@@ -1,0 +1,20 @@
+{
+  "name": "UMP AutoLogin",
+  "description": "UMP AutoLogin - allow you to login with saved username, password and role",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "default_icon": {
+    "16": "/images/get_started16.png",
+    "32": "/images/get_started32.png",
+    "48": "/images/get_started48.png",
+    "128": "/images/get_started128.png"
+  },
+  "permissions": ["tabs", "scripting","storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://community.ump.edu.my/ecommstaff/login_eccom/*"]
+}
