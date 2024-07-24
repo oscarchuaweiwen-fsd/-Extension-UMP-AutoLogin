@@ -10,11 +10,11 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/ump_16.png",
-      "32": "/images/ump_32.png",
-      "48": "/images/ump_48.png",
-      "128": "/images/get_started128.png"
+      "16": "./images/ump_16.png",
+      "32": "./images/ump_32.png",
+      "48": "./images/ump_48.png",
+      "128": "./images/ump_128.png"
     }
   },
-  "host_permissions": ["https://community.ump.edu.my/ecommstaff/login_eccom/*"]
+  "host_permissions": ["https://ecomm.ump.edu.my/*"]
 }
